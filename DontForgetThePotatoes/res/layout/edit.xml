@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/about" >
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:layout_width="match_parent"
+   	android:layout_height="wrap_content">
+	<TableLayout android:id="@+id/details"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="1"
+		android:paddingTop="4dip"
+	android:weightSum="1">
+	<TableRow>
+		<TextView android:text="Name:" 
+		android:textColor="#FF000000" android:typeface="serif"/>
+		<EditText android:id="@+id/name" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Quantity:"
+		android:textColor="#FF000000" android:typeface="serif" />
+		<EditText android:id="@+id/quantity"  />
+	</TableRow>
+	<TableRow >
+	     <TextView android:text="Select Store"
+	     android:textColor="#FF000000" android:typeface="serif"
+    />
+    <Spinner android:id="@+id/spinner"
+    
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    />
+	</TableRow>
+	<Button android:id="@+id/save2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Save"
+		android:typeface="serif"
+		 android:background="@android:color/transparent"
+		 android:textAppearance="?android:attr/textAppearanceLarge"
+	/>
+	<Button android:id="@+id/newStore2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Add New Store"
+		android:typeface="serif"
+		 android:background="@android:color/transparent"
+		 android:textAppearance="?android:attr/textAppearanceLarge"
+	/>
+	</TableLayout>
+</ScrollView>
+</LinearLayout>

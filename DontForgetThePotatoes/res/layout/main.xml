@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/about"
+    android:layout_height="fill_parent" android:orientation="vertical" android:weightSum="1" android:layout_gravity="center">
+    <Button android:drawablePadding="-15sp" android:textAppearance="?android:attr/textAppearanceMedium"  android:drawableTop="@drawable/list" android:text="View Lists" android:layout_height="wrap_content" android:textColor="#FF000000" android:id="@+id/list" android:background="@null" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="50dp" android:layout_marginTop="75dp"></Button>
+	<Button android:drawablePadding="-15sp" android:textAppearance="?android:attr/textAppearanceMedium"  android:drawableTop="@drawable/add" android:text="Add Item" android:layout_height="wrap_content" android:textColor="#FF000000" android:id="@+id/add" android:background="@null" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="175dp" android:layout_marginTop="75dp"></Button>
+	<Button android:drawablePadding="-15sp" android:textAppearance="?android:attr/textAppearanceMedium"  android:drawableTop="@drawable/instruct" android:text="Instructions" android:layout_height="wrap_content" android:textColor="#FF000000" android:id="@+id/instructions" android:background="@null" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="50dp" android:layout_marginTop="225dp"></Button>
+	<Button android:drawablePadding="-15sp" android:textAppearance="?android:attr/textAppearanceMedium" android:drawableTop="@drawable/store" android:text="Enter Store" android:layout_height="wrap_content" android:textColor="#FF000001" android:id="@+id/enter" android:background="@null" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginRight="175dp" android:layout_marginTop="225dp" android:layout_alignBottom="@+id/instructions" android:layout_alignLeft="@+id/add"></Button>
+	
+    </RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@drawable/about"
+   android:padding="10dip">
+   
+   <RelativeLayout
+   		android:layout_width="fill_parent" android:layout_height="466dp" >
+       <TextView android:layout_width="wrap_content" android:text="DontForgetThePotatoes" android:typeface="serif" android:textColor="#FF000000" android:id="@+id/textView1" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView>
+       <TextView android:layout_width="wrap_content" android:text="Copyright 2011" android:typeface="serif" android:id="@+id/textView2" android:textColor="#FF000000" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/textView1" android:layout_centerHorizontal="true" android:layout_marginTop="22dp"></TextView>
+       <TextView android:layout_width="wrap_content" android:text="I'm A Potato!" android:typeface="serif" android:id="@+id/textView3" android:textColor="#FF000000" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/textView2" android:layout_centerHorizontal="true" android:layout_marginTop="20dp"></TextView>
+       <TextView android:layout_width="wrap_content" android:typeface="serif" android:text="Special Thanks To:" android:textColor="#FF000000" android:id="@+id/textView4" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_below="@+id/textView3" android:layout_centerHorizontal="true" android:layout_marginTop="157dp"></TextView>
+       <TextView android:layout_width="wrap_content" android:typeface="serif" android:textColor="#FF000000" android:text="Libby Shoop" android:id="@+id/textView5" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/textView4" android:layout_centerHorizontal="true" android:layout_marginTop="26dp"></TextView>
+       <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/canti" android:layout_below="@+id/textView3" android:layout_centerHorizontal="true" android:layout_marginTop="36dp"></ImageView>
+      
+   </RelativeLayout>
+</ScrollView>

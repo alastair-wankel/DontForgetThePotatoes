@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/about">
+  <TextView android:id="@+id/textView1" android:text="Instructions" android:typeface="serif" android:textColor="#FF000000" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+  android:textAppearance="?android:attr/textAppearanceLarge" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView>
+  <TextView android:id="@+id/textView2" android:textColor="#FF000000" android:typeface="serif" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true" android:layout_marginLeft="22dp" android:layout_marginTop="27dp" android:layout_alignParentRight="true" android:layout_marginRight="17dp" android:text="@string/instructions"></TextView>
+  <TextView android:id="@+id/textView3" android:text="1. Add Items to store-based lists" android:layout_width="wrap_content" android:layout_height="wrap_content" android:typeface="serif" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#FF000000" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/textView2" android:layout_marginLeft="16dp"></TextView>
+  <TextView android:id="@+id/textView4" android:text="2. Search those lists to check on/edit items" android:layout_width="wrap_content" android:layout_height="wrap_content" android:typeface="serif" android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#FF000000" android:layout_below="@+id/textView3" android:layout_alignLeft="@+id/textView3" android:layout_marginTop="16dp"></TextView>
+  <TextView android:id="@+id/textView5" android:textColor="#FF000000" android:typeface="serif" android:text="3. Hit Enter Store to check off items while you shop at each store." android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/textView4" android:layout_alignLeft="@+id/textView4" android:layout_marginTop="16dp"></TextView>
+  <TextView android:id="@+id/textView6" android:textColor="#FF000000" android:typeface="serif" android:text="4. Make sure to select enter store while at your car or before you start to shop to utilize the GPS feature!" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_below="@+id/textView5" android:layout_alignLeft="@+id/textView4" android:layout_marginTop="16dp"></TextView>
+      
+</RelativeLayout>
